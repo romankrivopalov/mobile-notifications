@@ -27,11 +27,8 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.(png|jpg|gif|webp)$/,
-        type: 'asset/resource',
-        generator: {
-          filename: 'static/images/[hash][ext][query]',
-        },
+        test: /\.(jpg|jpeg|png|svg)$/,
+        type: 'asset/resource'
       },
       {
         test: /\.svg$/i,
@@ -67,6 +64,7 @@ module.exports = {
   plugins: [
     new HTMLWebpackPlugins({
       template: path.resolve(__dirname, '..', './public/index.html'),
+      favicon: path.resolve(__dirname, '..', './public/favicon.svg'),
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
