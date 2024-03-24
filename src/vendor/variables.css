@@ -1,4 +1,22 @@
 :root {
   --color-bg-main: #1B1C1F;
-  --color-text-white: #FFF;
+  --color-bg-second: #161618;
+
+  --color-white: #FFF;
+  --color-gray: #8C8C8C;
+
+  --offset-8: 8px;
+  --offset-16: 16px;
+  --offset-24: 24px;
+  --offset-32: 32px;
+  --offset-40: 40px;
+
+  --color-btn-main: #32363F;
+  --color-btn-main-hover: #424552;
+  --color-btn-purple: #8660F3;
+  --color-btn-purple-hover: #9573f8;
+  --color-btn-pink: #B664F6;
+  --color-btn-pink-hover: #c17afc;
+
+  --border-btm: 1px solid var(--color-gray);
 }

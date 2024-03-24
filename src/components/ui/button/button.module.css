@@ -1,0 +1,30 @@
+.button {
+  padding: var(--offset-16) var(--offset-24);
+  font-size: 16px;
+  color: var(--color-white);
+  background-color: var(--color-btn-main);
+  border-radius: 26px;
+  border: none;
+  cursor: pointer;
+  transition: background-color .2s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--color-btn-main-hover);
+}
+
+.button_purple {
+  background-color: var(--color-btn-purple);
+}
+
+.button_purple:hover {
+  background-color: var(--color-btn-purple-hover);
+}
+
+.button_pink {
+  background-color: var(--color-btn-pink);
+}
+
+.button_pink:hover {
+  background-color: var(--color-btn-pink-hover);
+}

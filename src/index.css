@@ -1,7 +1,12 @@
 @import './vendor/variables.css';
 
 body {
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
   font-family: Inter, Helvetica, sans-serif;
-  color: var(--color-text-white);
+  color: var(--color-white);
   background-color: var(--color-bg-main);
 }
